@@ -4,24 +4,24 @@ export default function Home() {
   return (
     <main className='w-full h-[100vh] flex items-center justify-center bg-neutral-950'>
       <div className='w-full h-full  max-w-screen-sm bg-black overflow-y-scroll overflow-x-hidden'>
-        <div className='min-h-[400px]'>
+        <div className='min-h-[320px]'>
           <Image src='/background_text.webp' alt='텍스트 이미지' width={680} height={400} />
         </div>
-        <p className='text-white text-4xl text-center translate-y-[-120px]'>
+        <p className='text-white text-3xl text-center translate-y-[-120px]'>
           예술 구독 서비스 <span className='text-[#7DD732] '>캔익</span> 오픈!
         </p>
-        <div className='min-h-[380px] relative translate-y-[-40px]'>
+        <div className='min-h-[280px] relative translate-y-[-80px]'>
           <Image
             src='/blue.webp'
             alt='파랑원'
-            width={225}
+            width={200}
             height={225}
             className='absolute right-0 translate-x-[40px]'
           />
           <Image
             src='/purple.webp'
             alt='보라원'
-            width={225}
+            width={200}
             height={225}
             className='absolute left-0 bottom-0 translate-x-[-20px]'
           />
@@ -29,25 +29,25 @@ export default function Home() {
         <div className='w-full flex items-center justify-center mb-4'>
           <Image src='/title.webp' alt='타이틀 제목' width={340} height={200} />
         </div>
-        <div className='min-h-[520px] relative mb-4'>
+        <div className='min-h-[470px] relative mb-4'>
           <Image
             src='/pink.webp'
             alt='분홍원'
-            width={225}
+            width={200}
             height={225}
             className='absolute right-0'
           />
           <Image
             src='/yellow.webp'
             alt='노랑원'
-            width={270}
+            width={250}
             height={225}
             className='absolute left-0 top-8 translate-x-[-80px]'
           />
           <Image
             src='/green.webp'
             alt='초록원'
-            width={225}
+            width={200}
             height={225}
             className='absolute right-2 bottom-0'
           />
